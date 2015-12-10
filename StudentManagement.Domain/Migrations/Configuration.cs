@@ -4,15 +4,16 @@ namespace StudentManagement.Domain.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+   using StudentManagement.Domain.DataAccess.Contexts;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<StudentManagement.Domain.DataAccess.Contexts.SmsContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<SmsContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(StudentManagement.Domain.DataAccess.Contexts.SmsContext context)
+        protected override void Seed(SmsContext context)
         {
             //  This method will be called after migrating to the latest version.
 

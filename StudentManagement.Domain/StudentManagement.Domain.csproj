@@ -51,21 +51,12 @@
     <Compile Include="Entities\Abstract\Person.cs" />
     <Compile Include="Entities\CrossCutting\Campus.cs" />
     <Compile Include="Entities\Student\Student.cs" />
-    <Compile Include="Migrations\201512100414466_initial-create.cs" />
-    <Compile Include="Migrations\201512100414466_initial-create.Designer.cs">
-      <DependentUpon>201512100414466_initial-create.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201512100414466_initial-create.resx">
-      <DependentUpon>201512100414466_initial-create.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
