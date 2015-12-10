@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Web", "StudentManagement.Web\StudentManagement.Web.csproj", "{D330B33A-2FD7-4C77-B1D3-8DFE8CC6C55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Web.Tests", "StudentManagement.Web.Tests\StudentManagement.Web.Tests.csproj", "{E371746F-3220-4632-9E28-B95C95AC10CD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Domain", "StudentManagement.Domain\StudentManagement.Domain.csproj", "{ED2E7EA9-7D23-42F2-8B6D-BE24D8ACB3A4}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{D330B33A-2FD7-4C77-B1D3-8DFE8CC6C55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D330B33A-2FD7-4C77-B1D3-8DFE8CC6C55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D330B33A-2FD7-4C77-B1D3-8DFE8CC6C55B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E371746F-3220-4632-9E28-B95C95AC10CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E371746F-3220-4632-9E28-B95C95AC10CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E371746F-3220-4632-9E28-B95C95AC10CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E371746F-3220-4632-9E28-B95C95AC10CD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED2E7EA9-7D23-42F2-8B6D-BE24D8ACB3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED2E7EA9-7D23-42F2-8B6D-BE24D8ACB3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED2E7EA9-7D23-42F2-8B6D-BE24D8ACB3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU

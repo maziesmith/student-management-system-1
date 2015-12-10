@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentManagement.Domain.Entities.Common
+namespace StudentManagement.Domain.Entities.Abstract
 {
    public enum PersonTitle
    {
