@@ -1,82 +1,74 @@
 ﻿@model StudentManagement.Domain.Entities.Student.Student
 
 @{
-    Layout = null;
+    ViewBag.Title = "Index";
 }
 
-<!DOCTYPE html>
+<h2>Index</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div>
-        <h4>Student</h4>
-    	<hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Campus.CampusName)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Campus.CampusName)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Grade)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Grade)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Title)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Title)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.FirstName)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.FirstName)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.LastName)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.LastName)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.DateOfBirth)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.DateOfBirth)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Gender)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Gender)
-            </dd>
-    
-        </dl>
-    </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.StudentId }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
-</html>
+<div>
+    <h4>Student</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Campus.CampusName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Campus.CampusName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.StudentId }) |
+    @Html.ActionLink("Back to List", "Index")*@
+</p>

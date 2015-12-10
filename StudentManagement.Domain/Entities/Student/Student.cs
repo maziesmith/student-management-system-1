@@ -15,6 +15,6 @@ namespace StudentManagement.Domain.Entities.Student
 
       public int CampusId { get; set; }
       public Campus Campus { get; set; }
-      public IEnumerable<Address> Addresses { get; set; }
+      //public IEnumerable<Address> Addresses { get; set; }
    }
 }

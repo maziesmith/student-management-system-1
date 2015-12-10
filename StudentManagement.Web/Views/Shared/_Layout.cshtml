@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <title>@ViewBag.Title</title>
+   @System.Web.Optimization.Styles.Render("~/Content/css")
+</head>
+<body>
+   <div>
+      @RenderBody()
+   </div>
+
+   @System.Web.Optimization.Scripts.Render("~/Scripts/jquery")
+   @System.Web.Optimization.Scripts.Render("~/Scripts/jqueryval")
+   @System.Web.Optimization.Scripts.Render("~/Scripts/app")
+</body>
+</html>
